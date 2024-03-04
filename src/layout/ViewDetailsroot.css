@@ -1,0 +1,35 @@
+.box {
+    background-color: rgb(184, 159, 207);
+    padding:20px;
+    border:1px solid rgb(119, 7, 224);
+    margin-right:80px;
+    margin-left:80px;
+}
+.box h2 {
+    text-align:center;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(75, 73, 73);
+    margin-bottom: 25px;
+}
+.box h3 span {
+    color:rgb(55, 1, 94);
+    font-weight: bold;
+    width:170px;
+    display: inline-block;
+}
+.box h3 {
+    font-size:20px;
+    margin-bottom:35px;
+}
+
+#btn,#btn1 {
+    background-color: brown;
+    color:#fff;
+}
+#btn {
+    display:block;
+}
+#place_det {
+    display:none;
+}

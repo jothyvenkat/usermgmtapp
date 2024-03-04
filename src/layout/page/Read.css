@@ -1,0 +1,41 @@
+table {
+    margin-right:80px;
+    margin-left:80px;
+    border:1px solid #000;
+    border-collapse:collapse;
+    width:90%;
+    text-align:center;
+  }
+  table thead th{
+    padding:20px 0;
+    background-color: blue;
+    color:#fff;
+    font-size: 20px;
+  }
+  table thead {
+    border:1px solid #fff;
+  }
+  table tbody td {
+    padding:10px 0;
+    border-bottom:1px solid grey;
+  }
+  table tbody tr:nth-child(odd) {
+    background-color:rgb(222, 222, 245);
+  }
+  .butn {
+    text-align:center;
+    margin:40px auto;
+    display:block;
+    background-color: green;
+    padding:10px 15px;
+    border-radius: 15px;
+  }
+  .butn a {
+    text-decoration:none;
+    color:linen;
+    font-size: 16px;
+  }
+  .title {
+    text-align: center;
+    font-size: 25px;
+  }

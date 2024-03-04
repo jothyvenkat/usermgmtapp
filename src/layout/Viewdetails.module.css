@@ -1,0 +1,9 @@
+.p1{
+    padding:5px 10px;
+    border-radius:5px;
+    background-color:brown;
+    color:antiquewhite;
+}
+.p2{
+    display:none;
+}

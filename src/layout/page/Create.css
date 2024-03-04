@@ -1,0 +1,47 @@
+.form {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding:40px;
+    font-weight: bold;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:rgb(192, 192, 225)
+  }
+  .form .child{
+    flex-basis: 49%;
+    margin-top:20px;
+  }
+  .form .child label{
+    min-width:130px;
+    display: inline-flex;
+  }
+  .form .child input{
+    width:50%;
+    padding:5px;
+  }
+  .form .message{
+    display:flex;
+    align-items: center;
+    width:100%;
+    margin-bottom:5px;
+    height:100%;
+  }
+  .form .message label{
+    min-width:130px;
+    display:inline-flex;
+  }
+  .form select {
+    padding:5px;
+  }
+  .form .message textarea{
+    resize: none;
+    height:150px;
+    margin-top:40px;
+    width:360px;
+    padding:5px;
+  }
+  .form .buton {
+    background-color: palevioletred;
+  }
